@@ -1,5 +1,108 @@
+@keyframes wiggle {
+  0% {
+    transform: skewX(9deg);
+  }
+  10% {
+    transform: skewX(-8deg);
+  }
+  20% {
+    transform: skewX(7deg);
+  }
+  30% {
+    transform: skewX(-6deg);
+  }
+  40% {
+    transform: skewX(5deg);
+  }
+  50% {
+    transform: skewX(-4deg);
+  }
+  60% {
+    transform: skewX(3deg);
+  }
+  70% {
+    transform: skewX(-2deg);
+  }
+  80% {
+    transform: skewX(1deg);
+  }
+  90% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
 .display-none {
   display: none;
+}
+@keyframes wiggle {
+  0% {
+    transform: skewX(9deg);
+  }
+  10% {
+    transform: skewX(-8deg);
+  }
+  20% {
+    transform: skewX(7deg);
+  }
+  30% {
+    transform: skewX(-6deg);
+  }
+  40% {
+    transform: skewX(5deg);
+  }
+  50% {
+    transform: skewX(-4deg);
+  }
+  60% {
+    transform: skewX(3deg);
+  }
+  70% {
+    transform: skewX(-2deg);
+  }
+  80% {
+    transform: skewX(1deg);
+  }
+  90% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+.mixi-frames 0% {
+  transform: skewX(9deg);
+}
+.mixi-frames 10% {
+  transform: skewX(-8deg);
+}
+.mixi-frames 20% {
+  transform: skewX(7deg);
+}
+.mixi-frames 30% {
+  transform: skewX(-6deg);
+}
+.mixi-frames 40% {
+  transform: skewX(5deg);
+}
+.mixi-frames 50% {
+  transform: skewX(-4deg);
+}
+.mixi-frames 60% {
+  transform: skewX(3deg);
+}
+.mixi-frames 70% {
+  transform: skewX(-2deg);
+}
+.mixi-frames 80% {
+  transform: skewX(1deg);
+}
+.mixi-frames 90% {
+  transform: skewX(0deg);
+}
+.mixi-frames 100% {
+  transform: skewX(0deg);
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -304,6 +407,39 @@ footer {
 .home .walk .walk-text button:hover {
   background: teal;
   color: purple;
+}
+.home .walk .walk-text button:hover 0% {
+  transform: skewX(9deg);
+}
+.home .walk .walk-text button:hover 10% {
+  transform: skewX(-8deg);
+}
+.home .walk .walk-text button:hover 20% {
+  transform: skewX(7deg);
+}
+.home .walk .walk-text button:hover 30% {
+  transform: skewX(-6deg);
+}
+.home .walk .walk-text button:hover 40% {
+  transform: skewX(5deg);
+}
+.home .walk .walk-text button:hover 50% {
+  transform: skewX(-4deg);
+}
+.home .walk .walk-text button:hover 60% {
+  transform: skewX(3deg);
+}
+.home .walk .walk-text button:hover 70% {
+  transform: skewX(-2deg);
+}
+.home .walk .walk-text button:hover 80% {
+  transform: skewX(1deg);
+}
+.home .walk .walk-text button:hover 90% {
+  transform: skewX(0deg);
+}
+.home .walk .walk-text button:hover 100% {
+  transform: skewX(0deg);
 }
 .home .walk .walk-text .btn {
   width: 30%;
