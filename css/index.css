@@ -119,12 +119,15 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+button {
+  border: none;
 }
 * {
   box-sizing: border-box;
@@ -160,6 +163,10 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.header-wrap {
+  width: 100vw;
+  background: #F6F6F6;
+}
 header {
   width: 100%;
   display: flex;
@@ -177,6 +184,8 @@ nav {
   align-self: center;
   width: 50%;
   padding-bottom: 10px;
+  padding-top: 15px;
+  justify-items: space-between;
 }
 nav a {
   width: 25%;
@@ -200,6 +209,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro .banner {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -236,6 +248,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 30%;
+  height: 10%;
+  border-radius: 5px;
+  background: #22283A;
+  color: #F6F7F8;
+  font-size: 1.5em;
+  font-family: "Ubuntu", sans-serif;
 }
 .home .walk .walk-img {
   width: 46%;
