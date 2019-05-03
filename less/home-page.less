@@ -84,12 +84,15 @@
         margin-bottom: 26px;
       }
 
+      button:hover {
+        .btn-style-hover(teal, purple);
+      }
+
       .btn {
         width: 30%;
         height: 10%;
         border-radius: 5px;
-        background: @btn-bg-color;
-        color: @porcelain;
+        .btn-style(@btn-bg-color, @porcelain);
         font-size: 1.9em;
         font-family: "Ubuntu", sans-serif;
 
